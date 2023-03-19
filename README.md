@@ -15,6 +15,7 @@ https://user-images.githubusercontent.com/48423148/223344286-bf2dff31-3fc5-4970-
 Python 3.10.8 and Git
 
 # Windows Installation
+
 1. 
 ``` 
 git clone https://github.com/mattyamonaca/layerdivider
@@ -23,6 +24,20 @@ git clone https://github.com/mattyamonaca/layerdivider
 2. run `install.ps1` first time use, waiting for installation to complete.
 3. run `run_gui.ps1` to open local gui.
 4. open webstie localhost:port to use(The default is localhost:7860). 
+
+## Optional: For Python Launcher User
+If you installed Python launcher (py command), you can use another method for installation.
+1. download this repository, for example by running
+``` PowerShell
+git clone https://github.com/mattyamonaca/layerdivider
+```
+2. run `install_with_launcher.ps1` instead of `install.ps1` to install dependent packages.
+3. run `run_gui.ps1` to open local gui.
+4. wait a few moments; then PowerShell outputs URL as below:
+```PowerShell
+Running on local URL: http://127.0.0.1:7860
+```
+Then open this URL. 
 
 # 処理内容
 1. 入力された画像をピクセル単位でRGB情報に従いクラスタリング

@@ -15,7 +15,6 @@ https://user-images.githubusercontent.com/48423148/223344286-bf2dff31-3fc5-4970-
 Python 3.10.8 and Git
 
 # Windows Installation
-
 1. 
 ``` 
 git clone https://github.com/mattyamonaca/layerdivider
